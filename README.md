@@ -1,4 +1,4 @@
-Miles-per-Gallon
+Starting out with Java. Chapter 2, Assignment 9: Miles-Per-Gallon.
 
 A car’s miles-per-gallon (MPG) can be calculated with the following formula:
 
