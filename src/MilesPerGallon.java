@@ -37,19 +37,6 @@ public class MilesPerGallon {
         gallonsUsed = keyboardInput.nextDouble();
 
         //**********************************************
-        // Validation Section                          *
-        // Prevent division by zero and negative input *
-        //**********************************************
-        if (gallonsUsed <= 0) {
-            System.out.println("Error: Gallons of gas used must be greater than zero.");
-            System.exit(1);
-        }
-        if (milesDriven < 0) {
-            System.out.println("Error: Miles driven cannot be negative.");
-            System.exit(1);
-        }
-
-        //**********************************************
         // Calculation Section                         *
         // Calculate the miles-per-gallon (MPG) value  *
         //**********************************************
